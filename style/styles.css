@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+    margin: 0%;
+    padding: 0%;
+}
+
+.card {
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 3% 20%;
+    color: whitesmoke;
+}
+
+.welcome-note h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.short-info p {
+    font-size: 20px;
+}
+
+.projects-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 2%;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.338);
+    height: 50px;
+    position: relative;
+    padding-top: 15px;
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+nav {
+    background-color: black;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding-right: 40px;
+}
+
+nav b {
+    text-decoration: none;
+    color: antiquewhite;
+    float: left;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+
+.SM-Cards {
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 3% 20%;
+    color: whitesmoke;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SM-Cards i {
+    font-size: 100px;
+}
+
+.SM-Name {
+    text-decoration: none;
+    font-size: 100px;
+    color: white;
+}
+
+.page-wrapper {
+    min-height: 100%;
+}
+
+.card contact{
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 3% 20%;
+    color: whitesmoke;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CM-Name {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+}
+
+.card contact i {
+    font-size: 100px;
+}
+
+.channel {
+    color: whitesmoke;
+}
+
+img {
+    width: 20%;
+}
